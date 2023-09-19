@@ -3,13 +3,7 @@ import type {CartLineUpdateInput} from '@shopify/hydrogen/storefront-api-types';
 import {Link} from '@remix-run/react';
 import type {CartApiQueryFragment} from 'storefrontapi.generated';
 import {useVariantUrl} from '~/utils';
-
-type CartLine = CartApiQueryFragment['lines']['nodes'][0];
-
-type CartMainProps = {
-  cart: CartApiQueryFragment | null;
-  layout: 'page' | 'aside';
-};
+import {CartMainProps, CartLine} from './Cart.types';
 
 export function CartMain({layout, cart}: CartMainProps) {
   const linesCount = Boolean(cart?.lines?.nodes?.length || 0);
@@ -334,6 +328,7 @@ function CartLineUpdateButton({
       action={CartForm.ACTIONS.LinesUpdate}
       inputs={{lines}}
     >
+      123
       {children}
     </CartForm>
   );

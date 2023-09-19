@@ -4,7 +4,7 @@ import type {CartQueryData} from '@shopify/hydrogen';
 import {CartForm} from '@shopify/hydrogen';
 import {type ActionArgs, json} from '@shopify/remix-oxygen';
 import type {CartApiQueryFragment} from 'storefrontapi.generated';
-import {CartMain} from '~/components/Cart';
+import {CartMain} from '~/components/cart/Cart';
 
 export const meta: V2_MetaFunction = () => {
   return [{title: `Hydrogen | Cart`}];
