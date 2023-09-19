@@ -1,9 +1,4 @@
-import {CartForm, Image, Money} from '@shopify/hydrogen';
-import type {CartLineUpdateInput} from '@shopify/hydrogen/storefront-api-types';
-import {Link} from '@remix-run/react';
-import type {CartApiQueryFragment} from 'storefrontapi.generated';
-import {useVariantUrl} from '~/utils';
-import {CartMainProps, CartLine} from './Cart.types';
+import {CartForm} from '@shopify/hydrogen';
 
 export function UpdateDiscountForm({
   discountCodes,
