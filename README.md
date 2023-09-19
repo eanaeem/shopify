@@ -1,40 +1,50 @@
-# Hydrogen template: Skeleton
+# Hydrogen-based Project
 
-Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dovetail with [Remix](https://remix.run/), Shopify’s full stack web framework. This template contains a **minimal setup** of components, queries and tooling to get started with Hydrogen.
+This project is initiated using Shopify's Hydrogen template for headless commerce. Hydrogen is Shopify’s innovative stack for headless commerce, designed to work seamlessly with [Remix](https://remix.run/), Shopify’s full-stack web framework. This template provides a **minimal setup** to kickstart your coding test with Hydrogen.
 
-[Check out Hydrogen docs](https://shopify.dev/custom-storefronts/hydrogen)
-[Get familiar with Remix](https://remix.run/docs/en/v1)
+## Resources
 
-## What's included
+- [Hydrogen Documentation](https://shopify.dev/custom-storefronts/hydrogen)
+- [Remix Documentation](https://remix.run/docs/en/v1)
 
-- Remix
-- Hydrogen
-- Oxygen
-- Shopify CLI
-- ESLint
-- Prettier
-- GraphQL generator
-- TypeScript and JavaScript flavors
-- Minimal setup of components and routes
+## Features
 
-## Getting started
+- **Remix**: A powerful full-stack web framework.
+- **Hydrogen**: Shopify's stack for headless commerce.
+- **Oxygen**: (Note: You might want to provide a brief description or link for Oxygen as it's not standard in the Hydrogen documentation.)
+- **Shopify CLI**: Command-line tool for Shopify.
+- **ESLint**: Tool for identifying and reporting on patterns in JavaScript.
+- **Prettier**: An opinionated code formatter.
+- **GraphQL generator**: (Note: A brief description or link would be helpful here.)
+- **TypeScript and JavaScript**: Both flavors are supported for flexibility.
+- **Minimal Setup**: Contains a basic setup of components, routes, and other necessary configurations.
 
-**Requirements:**
+## Getting Started
 
-- Node.js version 16.14.0 or higher
+### Prerequisites:
 
-```bash
+- Ensure you have Node.js version `16.14.0` or higher installed.
+
+### Setup:
+
+To initiate a new project:
+
+\```bash
 npm create @shopify/hydrogen@latest
-```
+\```
 
-## Building for production
+## Development
 
-```bash
-npm run build
-```
+### Local Development:
 
-## Local development
+To run the project locally:
 
-```bash
+\```bash
 npm run dev
-```
+\```
+
+### Building for Production:
+
+To build the project for production:
+
+\```bash
